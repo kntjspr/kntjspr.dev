@@ -40,7 +40,9 @@ function AboutMe() {
       <p className="text-tertiary">About me</p>
       <div className="text-secondary flex flex-col gap-4">
         <p>
-          I&apos;m Kent Jasper Cabunoc Sisi, and I call the lively city of Cagayan de Oro, Philippines, my home. My enthusiasm for learning knows no bounds, especially when it comes to diving into the exciting world of new technologies. Beyond that, you&apos;ll often find me tinkering with various projects, engrossed in the pages of books, mingling with friends, breaking a sweat at the gym, or strategizing over a chessboard.
+        My enthusiasm for learning knows no bounds, especially when it comes to diving into the exciting world of new technologies. 
+        Beyond that, you&apos;ll often find me tinkering with various projects, engrossed in the pages of books, 
+        mingling with friends, breaking a sweat at the gym, or strategizing over a chessboard.
         </p>
         <p>
           Currently, I proudly serve as the Sponsorship Manager at{' '}
@@ -50,10 +52,12 @@ function AboutMe() {
           . In this role, I connect with brilliant minds, forging relationships and seizing opportunities that fuel innovation and collaboration.
         </p>
         <p>
-          I&apos;m also a freshman at the University of Science and Technology of Southern Philippines, where I&apos;m pursuing a Bachelor&apos;s degree in Computer Science. My ultimate dream? To build a tech startup that leaves a mark on the world of technology.
+        Currently a freshman at the University of Science and Technology of Southern Philippines, where I&apos;m pursuing a Bachelor&apos;s degree in Computer Science. 
+        My ultimate dream? To build a tech startup that leaves a mark on the world of technology.
         </p>
         <p>
-          Currently interested in Reverse Engineering. Creating innovative experiences with Next.js. Fostering novel endeavors with individuals who share a common vision.
+        Currently interested in Reverse Engineering. Creating innovative experiences with Next.js. Fostering novel endeavors with individuals who share a common vision.
+
         </p>
       </div>
     </div>
@@ -107,27 +111,37 @@ function ContactLink({
   );
 }
 
-
 function Contact() {
   return (
     <div className="flex flex-col gap-4">
       <p className="text-tertiary">Connect</p>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
         <ContactLink
-          href="https://twitter.com/knt_jspr"
-          title="knt_jspr"
+          href="https://twitter.com/cristicrtu"
+          title="cristicrtu"
           website="Twitter"
         />
         <ContactLink
-          href="https://github.com/kntjspr"
-          title="kntjspr"
+          href="https://github.com/cristicretu"
+          title="cristicretu"
           website="GitHub"
         />
         <ContactLink
-          email="kntjspr[at]pm(dot)me"
-          title="kntjspr[at]pm(dot)me"
+          href="https://www.figma.com/@cretu"
+          title="cretu"
+          website="Figma"
+        />
+        <ContactLink
+          href="https://layers.to/cretu"
+          title="cretu"
+          website="Layers.to"
+        />
+        <ContactLink
+          email="hi[at]cretu(dot)dev"
+          title="hi[at]cretu(dot)dev"
           website="Email"
         />
+        <ContactLink href="https://read.cv/cretu" title="cretu" website="CV" />
       </div>
     </div>
   );
