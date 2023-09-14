@@ -9,10 +9,10 @@ export default function Footer() {
     <footer className="text-quaternary border-gray-200pb-24 mx-auto max-w-2xl border-t border-dashed py-12 pt-4 text-sm dark:border-gray-700 dark:text-gray-600">
       <FooterGraphic />
       <span>
-        © Cristian Crețu {new Date().getFullYear()}. Website built using Next.js
+        © Kent Jasper Cabunoc Sisi {new Date().getFullYear()}. Website built using Next.js
         & TailwindCSS (
         <a
-          href="https://github.com/cristicretu/cretu.dev"
+          href="https://github.com/kntjspr/kntjspr.dev"
           rel="noopener noreferrer"
           target="_blank"
         >
