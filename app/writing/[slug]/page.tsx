@@ -32,8 +32,8 @@ export async function generateMetadata({
     slug,
   } = post;
   const ogImage = image
-    ? `https://kntjspr.me${image}`
-    : `https://kntjspr.me/api/og?title=${title}`;
+    ? `https://cretu.dev${image}`
+    : `https://cretu.dev/api/og?title=${title}`;
 
   return {
     description,
@@ -47,7 +47,7 @@ export async function generateMetadata({
       publishedTime,
       title,
       type: 'article',
-      url: `https://kntjspr.me/blog/${slug}`,
+      url: `https://cretu.dev/blog/${slug}`,
     },
     title,
     twitter: {

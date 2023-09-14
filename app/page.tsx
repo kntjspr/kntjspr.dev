@@ -1,134 +1,133 @@
-import ExternalLink from '@/ui/ExternalLink';
-import Image from 'next/image';
+import Footer from '../ui/Footer';
+import './globals.css';
+import Providers from './providers';
+import { cn } from '@/lib/className';
+import AnimateEnter from '@/ui/AnimateEnter';
+import RollingMenu from '@/ui/RollingMenu';
+import { Metadata } from 'next';
+import { Inter } from 'next/font/google';
 
-export default function Home() {
-  return (
-    <div className="flex flex-col gap-16">
-      <Header />
-      <Contact />
-      <AboutMe />
-    </div>
-  );
-}
+const inter = Inter({ subsets: ['latin'] });
 
-function Header() {
-  return (
-    <div className="flex flex-row items-center gap-4">
-      <div className="relative h-12 w-12">
-        <Image
-          alt="Logo"
-          className="rounded-full"
-          layout="fill"
-          objectFit="contain"
-          src="/static/images/logo.png"
-        />
-        <div className="absolute -bottom-2 -right-2 rounded-full bg-white px-1 py-0.5 text-sm dark:bg-gray-900">
-          ✨
-        </div>
-      </div>
-      <div className="flex flex-col">
-        <h1>Kent Jasper Cabunoc Sisi</h1>
-        <p className="text-quaternary">Software Developer in Philippines</p>
-      </div>
-    </div>
-  );
-}
+export const metadata: Metadata = {
+  archives: '',
+  authors: [{ name: 'Kent Jasper Cabunoc Sisi', url: 'https://kntjspr.me' }],
+  category: 'coding',
+  creator: 'Kent Jasper Cabunoc Sisi',
+  description: 'Software Developer.',
+  icons: {
+    apple: '/static/favicons/apple-touch-icon-180x180.png',
+    icon: '/static/favicons/favicon-196x196.png',
+    shortcut: '/favicon.ico',
+  },
+  keywords: [
+    'Next.js',
+    'React',
+    'JavaScript',
+    'TypeScript',
+    'TailwindCSS',
+    'Design',
+    'Engineering',
+    'Frontend',
+    'Developer',
+    'Software',
+    'Kent Jasper Cabunoc Sisi',
+    'Cristicrtu',
+    'cretu.dev',
+    'romania',
+  ],
+  manifest: '/static/favicons/site.webmanifest',
+  openGraph: {
+    description: 'Design Engineer.',
+    images: [
+      {
+        alt: 'Kent Jasper Cabunoc Sisi',
+        height: 1080,
+        url: '',
+        width: 1920,
+      },
+    ],
+    locale: 'en-US',
+    siteName: 'Kent Jasper Cabunoc Sisi',
+    title: 'Kent Jasper Cabunoc Sisi',
+    type: 'website',
+    url: 'https://kntjspr.me',
+  },
+  publisher: 'Kent Jasper Cabunoc Sisi',
+  robots: {
+    follow: true,
+    googleBot: {
+      follow: true,
+      index: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+      'max-video-preview': -1,
+    },
+    index: true,
+  },
+  themeColor: [
+    { color: 'white', media: '(prefers-color-scheme: light)' },
+    { color: '#171717', media: '(prefers-color-scheme: dark)' },
+  ],
+  title: {
+    default: 'Kent Jasper Cabunoc Sisi',
+    template: '%s | Kent Jasper Cabunoc Sisi',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    site: '@cristicrtu',
+    title: 'Kent Jasper Cabunoc Sisi',
+  },
+  verification: {
+    google: 'fK4YqLAHjoaynXLF1e5gaPzDNOircgiYSgAwSXqr61o',
+  },
+};
 
-function AboutMe() {
-  return (
-    <div className="flex flex-col gap-4">
-      <p className="text-tertiary">About me</p>
-      <div className="text-secondary flex flex-col gap-4">
-        <p>
-          I&apos;m Kent Jasper Cabunoc Sisi, and I call the lively city of Cagayan de Oro, Philippines, my home. My enthusiasm for learning knows no bounds, especially when it comes to diving into the exciting world of new technologies. Beyond that, you&apos;ll often find me tinkering with various projects, engrossed in the pages of books, mingling with friends, breaking a sweat at the gym, or strategizing over a chessboard.
-        </p>
-        <p>
-          Currently, I proudly serve as the Sponsorship Manager at{' '}
-          <ExternalLink href="https://www.facebook.com/dscustp">
-          Operations Department of Google Developer Student Clubs USTP
-          </ExternalLink>
-          . In this role, I connect with brilliant minds, forging relationships and seizing opportunities that fuel innovation and collaboration.
-        </p>
-        <p>
-          I&apos;m also a freshman at the University of Science and Technology of Southern Philippines, where I&apos;m pursuing a Bachelor&apos;s degree in Computer Science. My ultimate dream? To build a tech startup that leaves a mark on the world of technology.
-        </p>
-        <p>
-          Currently interested in Reverse Engineering. Creating innovative experiences with Next.js. Fostering novel endeavors with individuals who share a common vision.
-        </p>
-      </div>
-    </div>
-  );
-}
-
-function ContactLink({
-  href,
-  title,
-  website,
-  email,
+export default function RootLayout({
+  children,
 }: {
-  email?: string;
-  href?: string;
-  title: string;
-  website?: string;
+  children: React.ReactNode;
 }) {
   return (
-    <span className="block items-center gap-4">
-      {website && <p className="text-quaternary">{website}</p>}
-      {href && (
-        <a
-          className="text-secondary hover:text-primary transition-opacity duration-150"
-          href={href}
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          {title}{' '}
-          <svg
-            className=" inline-block h-3 w-3"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth={1.5}
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </a>
-      )}
-      {email && (
-        <p className="text-secondary hover:text-primary transition-opacity duration-150">
-          {title}
-        </p>
-      )}
-    </span>
-  );
-}
-
-
-function Contact() {
-  return (
-    <div className="flex flex-col gap-4">
-      <p className="text-tertiary">Connect</p>
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
-        <ContactLink
-          href="https://twitter.com/knt_jspr"
-          title="knt_jspr"
-          website="Twitter"
-        />
-        <ContactLink
-          href="https://github.com/kntjspr"
-          title="kntjspr"
-          website="GitHub"
-        />
-        <ContactLink
-          email="kntjspr[at]pm(dot)me"
-          title="kntjspr[at]pm(dot)me"
-          website="Email"
-        />
-      </div>
-    </div>
+    <html lang="en" suppressHydrationWarning>
+      <body
+        className={cn(
+          `${inter.className}`,
+          'h-full, min-h-screen, relative w-full',
+          'my-4 bg-white dark:bg-gray-900 sm:my-24',
+          'motion-reduce:transform-none motion-reduce:transition-none',
+        )}
+      >
+        {/* <div className="absolute z-10 flex flex-col items-center bg-gray-200 dark:bg-gray-800 w-fit space-y-2 rounded-t-2xl rounded-xl p-1.5"></div>
+        <div className="p-2  sticky left-5 bottom-5 w-12 h-14 flex text-xs text-white flex-col bg-[#7786FE] bg-[#9CB7FF] hover:bg-opacity-80 transition-all duration-200 items-center space-y-1 cursor-pointer transition-all duration-200 rounded-t-xl rounded-b-lg rounded-lg" />
+        <div className="bg-[#ADC9FA] p-2 w-12 h-14 flex flex-col items-center justify-center cursor-crosshair rounded-b-xl rounded-t-lg" />
+        <div className="bg-[#CC697D] bg-[#E19DC2]" />
+        <div className="bg-[#BC7BFD] bg-[#D5ACFF] font-semibold" /> */}
+        {/* <div className="sticky    py-2 z-[1] bottom-2 top-2 md:top-4  mx-auto flex rounded-full justify-center items-center " /> */}
+        {/* <div className="px-2 mt-24 pb-24 pt-4"></div> */}
+        {/* <article className="prose prose-quoteless prose-neutral dark:prose-invert"></article> */}
+        {/* <div className="pl-2 select-none pt-4 underline underline-offset-[3px] hover:no-underline hover:bg-[url('/static/squiggle.svg')]"></div> */}
+        {/* <div className="flip-card-inner bg-[#1DB954] text-lg opacity-70 bg-[#C4150C] w-1/2 bg-[#214D72] w-1/2 bg-[#171515] bg-indigo-400 bg-orange-500 cursor-pointer  rotate-y-180 select-none flip-card bg-[#00acee] rotate-180 h-full font-semibold flip-card  rounded-lg flex items-center rounded-lg h-96 bg-green-500 flex flex-col gap-0 p-6 items-center justify-center p-6 flip-card-back justify-center gap-2 flip-card-front  text-2xl text-gray-100 text-center"></div> */}
+        {/* <div className="bg-blue-500 p-4"></div> */}
+        {/* <div className="mx-0.5 h-8 w-8 items-center rounded-full bg-black p-3 text-white dark:bg-white dark:text-black"></div> */}
+        {/* <div className=" ml-0.5 w-3 bg-[#228B22]  bg-[#EC605A] bg-[#EC605A] bg-[#5D0F07] bg-[#F7D358] bg-[#673D13] bg-[#61C167] bg-[#0D2805] bg-[#63C7FA] bg-[#63C7FA] bg-[#102E62] bg-[#EC79F9] bg-[#EC79F9] bg-[#5C0E63] bg-[#9f3e1b] bg-[#FF7F50] text-[#9f3e1b] text-[#5D0F07] text-[#673D13] text-[#102E62] text-[#5C0E63] text-[#0D2805]"></div> */}
+        <Providers>
+          <nav className="fixed bottom-4 left-2 z-50 sm:left-4 md:left-6">
+            {/* <button className="rounded-full bg-blue-500 p-3">
+              <PlusIcon className="h-6 w-6 text-white" />
+            </button> */}
+            {/* <div>hey</div> */}
+            <RollingMenu />
+            {/* <Swatch /> */}
+          </nav>
+          <AnimateEnter>
+            <>
+              {children}
+              <Footer />
+            </>
+          </AnimateEnter>
+        </Providers>
+      </body>
+    </html>
   );
 }
