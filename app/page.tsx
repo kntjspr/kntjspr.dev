@@ -45,9 +45,9 @@ function AboutMe() {
         <p>
           Currently, I proudly serve as the Sponsorship Manager at{' '}
           <ExternalLink href="https://www.facebook.com/dscustp">
-            Google Developer Student Clubs USTP
+          Operations Department of Google Developer Student Clubs USTP
           </ExternalLink>
-          , Operations Department. In this role, I connect with brilliant minds, forging relationships and seizing opportunities that fuel innovation and collaboration.
+          . In this role, I connect with brilliant minds, forging relationships and seizing opportunities that fuel innovation and collaboration.
         </p>
         <p>
           I&apos;m also a freshman at the University of Science and Technology of Southern Philippines, where I&apos;m pursuing a Bachelor&apos;s degree in Computer Science. My ultimate dream? To build a tech startup that leaves a mark on the world of technology.
@@ -107,37 +107,27 @@ function ContactLink({
   );
 }
 
+
 function Contact() {
   return (
     <div className="flex flex-col gap-4">
       <p className="text-tertiary">Connect</p>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
         <ContactLink
-          href="https://twitter.com/cristicrtu"
-          title="cristicrtu"
+          href="https://twitter.com/knt_jspr"
+          title="knt_jspr"
           website="Twitter"
         />
         <ContactLink
-          href="https://github.com/cristicretu"
-          title="cristicretu"
+          href="https://github.com/kntjspr"
+          title="kntjspr"
           website="GitHub"
         />
         <ContactLink
-          href="https://www.figma.com/@cretu"
-          title="cretu"
-          website="Figma"
-        />
-        <ContactLink
-          href="https://layers.to/cretu"
-          title="cretu"
-          website="Layers.to"
-        />
-        <ContactLink
-          email="hi[at]cretu(dot)dev"
-          title="hi[at]cretu(dot)dev"
+          email="kntjspr[at]pm(dot)me"
+          title="kntjspr[at]pm(dot)me"
           website="Email"
         />
-        <ContactLink href="https://read.cv/cretu" title="cretu" website="CV" />
       </div>
     </div>
   );
