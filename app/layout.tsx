@@ -12,9 +12,9 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   archives: ['https://old.kntjspr.me'],
   authors: [{ name: 'Kent Jasper Cabunoc Sisi', url: 'https://kntjspr.me' }],
-  category: 'design',
+  category: 'coding',
   creator: 'Kent Jasper Cabunoc Sisi',
-  description: 'Design Engineer.',
+  description: 'Software Developer.',
   icons: {
     apple: '/static/favicons/apple-touch-icon-180x180.png',
     icon: '/static/favicons/favicon-196x196.png',
@@ -35,12 +35,12 @@ export const metadata: Metadata = {
   ],
   manifest: '/static/favicons/site.webmanifest',
   openGraph: {
-    description: 'Design Engineer.',
+    description: 'Software Developer.',
     images: [
       {
         alt: 'Kent Jasper Cabunoc Sisi',
         height: 1080,
-        url: 'https://kntjspr.me/static/images/og.png',
+        url: '', //https://kntjspr.me/static/images/og.png
         width: 1920,
       },
     ],
