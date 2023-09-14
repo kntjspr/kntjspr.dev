@@ -31,10 +31,7 @@ export const metadata: Metadata = {
     'Frontend',
     'Developer',
     'Software',
-    'Kent Jasper Cabunoc Sisi',
-    'Cristicrtu',
-    'cretu.dev',
-    'romania',
+    'Kent Jasper Cabunoc Sisi'
   ],
   manifest: '/static/favicons/site.webmanifest',
   openGraph: {
