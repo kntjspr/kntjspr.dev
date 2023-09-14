@@ -117,8 +117,8 @@ function Contact() {
       <p className="text-tertiary">Connect</p>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
         <ContactLink
-          href="https://twitter.com/cristicrtu"
-          title="cristicrtu"
+          href="https://twitter.com/knt_jspr"
+          title="knt_jspr"
           website="Twitter"
         />
         <ContactLink
