@@ -60,7 +60,7 @@ export async function generateMetadata({
 }
 
 const editUrl = (slug: string) =>
-  `https://github.com/cristicretu/cretu.dev/edit/main/data/writing/${slug}.mdx`;
+  `https://github.com/kntjspr/kntjspr.dev/edit/main/data/writing/${slug}.mdx`;
 
 export default async function WritingPost({ params }: { params: any }) {
   const post = allWritings.find((post) => post.slug === params.slug);
@@ -97,7 +97,7 @@ export default async function WritingPost({ params }: { params: any }) {
       </div>
       <Mdx code={post.body.code} />
       <div className='mt-4'>
-        You can follow me on <ExternalLink href="https://twitter.com/cristicrtu">Twitter</ExternalLink>, where I document my journey :)
+        You can follow me on <ExternalLink href="https://twitter.com/knt_jspr">Twitter</ExternalLink>, where I document my journey :)
         <ExternalLink className="text-sm" href={editUrl(post.slug)}>
           Edit source on GitHub
         </ExternalLink>
