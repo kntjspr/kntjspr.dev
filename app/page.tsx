@@ -56,9 +56,7 @@ function AboutMe() {
         where I'm pursuing a Bachelor's degree in Computer Science. 
         My ultimate dream? To build a tech startup that leaves a mark on the world of technology.
         </p>
-        <p>
-        Currently interested in Reverse Engineering. Creating innovative experiences with Next.js. Fostering novel endeavors with individuals who share a common vision.
-        </p>
+
       </div>
     </div>
   );
@@ -122,26 +120,15 @@ function Contact() {
           website="Twitter"
         />
         <ContactLink
-          href="https://github.com/cristicretu"
-          title="cristicretu"
+          href="https://github.com/kntjspr"
+          title="kntjspr"
           website="GitHub"
         />
         <ContactLink
-          href="https://www.figma.com/@cretu"
-          title="cretu"
-          website="Figma"
-        />
-        <ContactLink
-          href="https://layers.to/cretu"
-          title="cretu"
-          website="Layers.to"
-        />
-        <ContactLink
-          email="hi[at]cretu(dot)dev"
-          title="hi[at]cretu(dot)dev"
+          email="kntjspr[at]pm(dot)me"
+          title="kntjspr[at]pm(dot)me"
           website="Email"
         />
-        <ContactLink href="https://read.cv/cretu" title="cretu" website="CV" />
       </div>
     </div>
   );
