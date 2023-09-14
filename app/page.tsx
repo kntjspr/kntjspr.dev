@@ -116,21 +116,32 @@ function Contact() {
     <div className="flex flex-col gap-4">
       <p className="text-tertiary">Connect</p>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
-        <ContactLink
-          href="https://twitter.com/knt_jspr"
-          title="knt_jspr"
+      <ContactLink
+          href="https://twitter.com/cristicrtu"
+          title="cristicrtu"
           website="Twitter"
         />
         <ContactLink
-          href="https://github.com/kntjspr"
-          title="kntjspr"
+          href="https://github.com/cristicretu"
+          title="cristicretu"
           website="GitHub"
         />
         <ContactLink
-          email="kntjspr[at]pm(dot)me"
-          title="kntjspr[at]pm(dot)me"
+          href="https://www.figma.com/@cretu"
+          title="cretu"
+          website="Figma"
+        />
+        <ContactLink
+          href="https://layers.to/cretu"
+          title="cretu"
+          website="Layers.to"
+        />
+        <ContactLink
+          email="hi[at]cretu(dot)dev"
+          title="hi[at]cretu(dot)dev"
           website="Email"
         />
+        <ContactLink href="https://read.cv/cretu" title="cretu" website="CV" />
       </div>
     </div>
   );
