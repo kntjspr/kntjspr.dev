@@ -28,7 +28,7 @@ function Header() {
       </div>
       <div className="flex flex-col">
         <h1>Kent Jasper Cabunoc Sisi</h1>
-        <p className="text-quaternary">Design Engineer in Europe</p>
+        <p className="text-quaternary">Software Developer in Philippines</p>
       </div>
     </div>
   );
@@ -40,9 +40,9 @@ function AboutMe() {
       <p className="text-tertiary">About me</p>
       <div className="text-secondary flex flex-col gap-4">
         <p>
-          Exploring ways to create unique, fluid experiences. Unlimitedly
-          obsessed with solving problems where design and engineering intersect,
-          by creating pixel-perfect, polished interfaces.'s
+        My enthusiasm for learning knows no bounds, especially when it comes to diving into the exciting world of new technologies. 
+        Beyond that, you will often find me tinkering with various projects, engrossed in the pages of books, 
+        mingling with friends, breaking a sweat at the gym, or strategizing over a chessboard.
         </p>
         <p>
           Currently tinkering with various projects and apps. Streamlining a new
