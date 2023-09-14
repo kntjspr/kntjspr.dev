@@ -16,6 +16,7 @@ function Header() {
     <div className="flex flex-row items-center gap-4">
       <div className="relative h-12 w-12">
         <Image
+          alt="Logo"
           className="rounded-full"
           layout="fill"
           objectFit="contain"
@@ -26,7 +27,7 @@ function Header() {
         </div>
       </div>
       <div className="flex flex-col">
-        <h1>Kent Jasper Cabunoc Sisi</h1>
+        <h1>Cristian Crețu</h1>
         <p className="text-quaternary">Design Engineer in Europe</p>
       </div>
     </div>
