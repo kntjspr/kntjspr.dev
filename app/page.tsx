@@ -40,9 +40,10 @@ function AboutMe() {
       <p className="text-tertiary">About me</p>
       <div className="text-secondary flex flex-col gap-4">
         <p>
-          Exploring ways to create unique, fluid experiences. Unlimitedly
-          obsessed with solving problems where design and engineering intersect,
-          by creating pixel-perfect, polished interfaces.
+        I'm Kent Jasper Cabunoc Sisi, and I call the lively city of Cagayan de Oro, Philippines, my home.
+        My enthusiasm for learning knows no bounds, especially when it comes to diving into the exciting world of new technologies. 
+        Beyond that, you'll often find me tinkering with various projects, engrossed in the pages of books, mingling with friends, 
+        breaking a sweat at the gym, or strategizing over a chessboard.
         </p>
         <p>
           Currently tinkering with various projects and apps. Streamlining a new
