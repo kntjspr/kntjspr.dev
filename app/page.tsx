@@ -40,7 +40,7 @@ function AboutMe() {
       <p className="text-tertiary">About me</p>
       <div className="text-secondary flex flex-col gap-4">
         <p>
-          I'm Kent Jasper Cabunoc Sisi, and I call the lively city of Cagayan de Oro, Philippines, my home. My enthusiasm for learning knows no bounds, especially when it comes to diving into the exciting world of new technologies. Beyond that, you'll often find me tinkering with various projects, engrossed in the pages of books, mingling with friends, breaking a sweat at the gym, or strategizing over a chessboard.
+          I&apos;m Kent Jasper Cabunoc Sisi, and I call the lively city of Cagayan de Oro, Philippines, my home. My enthusiasm for learning knows no bounds, especially when it comes to diving into the exciting world of new technologies. Beyond that, you&apos;ll often find me tinkering with various projects, engrossed in the pages of books, mingling with friends, breaking a sweat at the gym, or strategizing over a chessboard.
         </p>
         <p>
           Currently, I proudly serve as the Sponsorship Manager at{' '}
@@ -50,7 +50,7 @@ function AboutMe() {
           , Operations Department. In this role, I connect with brilliant minds, forging relationships and seizing opportunities that fuel innovation and collaboration.
         </p>
         <p>
-          I'm also a freshman at the University of Science and Technology of Southern Philippines, where I'm pursuing a Bachelor's degree in Computer Science. My ultimate dream? To build a tech startup that leaves a mark on the world of technology.
+          I&apos;m also a freshman at the University of Science and Technology of Southern Philippines, where I&apos;m pursuing a Bachelor&apos;s degree in Computer Science. My ultimate dream? To build a tech startup that leaves a mark on the world of technology.
         </p>
         <p>
           Currently interested in Reverse Engineering. Creating innovative experiences with Next.js. Fostering novel endeavors with individuals who share a common vision.
