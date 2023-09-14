@@ -1,12 +1,12 @@
 export default function robots() {
   return {
-    host: 'https://cretu.dev',
+    host: 'https://kntjspr.me',
     rules: [
       {
         userAgent: '*',
       },
     ],
-    sitemap: 'https://cretu.dev/sitemap.xml',
+    sitemap: 'https://kntjspr.me/sitemap.xml',
   };
 }
 
