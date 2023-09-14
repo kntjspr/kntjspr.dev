@@ -52,11 +52,11 @@ function AboutMe() {
           . In this role, I connect with brilliant minds, forging relationships and seizing opportunities that fuel innovation and collaboration.
         </p>
         <p>
-        Currently a freshman at the University of Science and Technology of Southern Philippines, where I&apos;m pursuing a Bachelor&apos;s degree in Computer Science. 
+        I&apos;m a freshman at the University of Science and Technology of Southern Philippines, where I&apos;m pursuing a Bachelor&apos;s degree in Computer Science. 
         My ultimate dream? To build a tech startup that leaves a mark on the world of technology.
         </p>
         <p>
-        Currently interested in Reverse Engineering. Creating innovative experiences with Next.js. Fostering novel endeavors with individuals who share a common vision.
+        Also, I&apos;m currently interested in Reverse Engineering. Creating innovative experiences with Next.js. Fostering novel endeavors with individuals who share a common vision.
 
         </p>
       </div>
