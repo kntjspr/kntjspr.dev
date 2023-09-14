@@ -10,11 +10,11 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  archives: '',
-  authors: [{ name: 'Kent Jasper Cabunoc Sisi', url: 'https://kntjspr.me' }],
-  category: 'coding',
-  creator: 'Kent Jasper Cabunoc Sisi',
-  description: 'Software Developer.',
+  archives: ['https://old.crtu.dev'],
+  authors: [{ name: 'Cristian Crețu', url: 'https://cretu.dev' }],
+  category: 'design',
+  creator: 'Cristian Crețu',
+  description: 'Design Engineer.',
   icons: {
     apple: '/static/favicons/apple-touch-icon-180x180.png',
     icon: '/static/favicons/favicon-196x196.png',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     'Frontend',
     'Developer',
     'Software',
-    'Kent Jasper Cabunoc Sisi',
+    'Cristian Crețu',
     'Cristicrtu',
     'cretu.dev',
     'romania',
@@ -41,19 +41,19 @@ export const metadata: Metadata = {
     description: 'Design Engineer.',
     images: [
       {
-        alt: 'Kent Jasper Cabunoc Sisi',
+        alt: 'Cristian Crețu',
         height: 1080,
-        url: '',
+        url: 'https://cretu.dev/static/images/og.png',
         width: 1920,
       },
     ],
     locale: 'en-US',
-    siteName: 'Kent Jasper Cabunoc Sisi',
-    title: 'Kent Jasper Cabunoc Sisi',
+    siteName: 'Cristian Crețu',
+    title: 'Cristian Crețu',
     type: 'website',
-    url: 'https://kntjspr.me',
+    url: 'https://cretu.dev',
   },
-  publisher: 'Kent Jasper Cabunoc Sisi',
+  publisher: 'Cristian Crețu',
   robots: {
     follow: true,
     googleBot: {
@@ -70,13 +70,13 @@ export const metadata: Metadata = {
     { color: '#171717', media: '(prefers-color-scheme: dark)' },
   ],
   title: {
-    default: 'Kent Jasper Cabunoc Sisi',
-    template: '%s | Kent Jasper Cabunoc Sisi',
+    default: 'Cristian Crețu',
+    template: '%s | Cristian Crețu',
   },
   twitter: {
     card: 'summary_large_image',
     site: '@cristicrtu',
-    title: 'Kent Jasper Cabunoc Sisi',
+    title: 'Cristian Crețu',
   },
   verification: {
     google: 'fK4YqLAHjoaynXLF1e5gaPzDNOircgiYSgAwSXqr61o',
