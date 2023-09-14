@@ -53,7 +53,7 @@ function AboutMe() {
         </p>
         <p>
         I&apos;m a freshman at the University of Science and Technology of Southern Philippines, where I&apos;m pursuing a Bachelor&apos;s degree in Computer Science. 
-        My ultimate dream? To build a tech startup that leaves a mark on the world of technology.
+        My ultimate goal? To build a tech startup that leaves a mark on the world of technology.
         </p>
         <p>
         Currently interested in Reverse Engineering. Creating innovative experiences with Next.js. Fostering novel endeavors with individuals who share a common vision.
