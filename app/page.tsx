@@ -27,8 +27,8 @@ function Header() {
         </div>
       </div>
       <div className="flex flex-col">
-        <h1>Cristian Crețu</h1>
-        <p className="text-quaternary">Design Engineer in Europe</p>
+        <h1>Kent Jasper Cabunoc Sisi</h1>
+        <p className="text-quaternary">Software Developer in Philippines</p>
       </div>
     </div>
   );
@@ -40,26 +40,20 @@ function AboutMe() {
       <p className="text-tertiary">About me</p>
       <div className="text-secondary flex flex-col gap-4">
         <p>
-          Exploring ways to create unique, fluid experiences. Unlimitedly
-          obsessed with solving problems where design and engineering intersect,
-          by creating pixel-perfect, polished interfaces.
+          I&apos;m Kent Jasper Cabunoc Sisi, and I call the lively city of Cagayan de Oro, Philippines, my home. My enthusiasm for learning knows no bounds, especially when it comes to diving into the exciting world of new technologies. Beyond that, you&apos;ll often find me tinkering with various projects, engrossed in the pages of books, mingling with friends, breaking a sweat at the gym, or strategizing over a chessboard.
         </p>
         <p>
-          Currently tinkering with various projects and apps. Streamlining a new
-          platform, for the next era of{' '}
-          <ExternalLink href="https://deta.space/docs/en/learn/what-is-pc#content">
-            personal computing
-          </ExternalLink>{' '}
-          at <ExternalLink href="https://deta.space">Deta</ExternalLink>.
-          Previously worked at{' '}
-          <ExternalLink href="https://landmarks.ro">Landmarks</ExternalLink> -
-          building beautiful web apps.
+          Currently, I proudly serve as the Sponsorship Manager at{' '}
+          <ExternalLink href="https://www.facebook.com/dscustp">
+          Operations Department of Google Developer Student Clubs USTP
+          </ExternalLink>
+          . In this role, I connect with brilliant minds, forging relationships and seizing opportunities that fuel innovation and collaboration.
         </p>
         <p>
-          Studying Computer Science. Ardent in reading, writing, and improving
-          consistently through learning. Currently interested in TypeScript and
-          C. Experimenting native apps with Swift. Generating new experiences
-          with Figma.
+          I&apos;m also a freshman at the University of Science and Technology of Southern Philippines, where I&apos;m pursuing a Bachelor&apos;s degree in Computer Science. My ultimate dream? To build a tech startup that leaves a mark on the world of technology.
+        </p>
+        <p>
+          Currently interested in Reverse Engineering. Creating innovative experiences with Next.js. Fostering novel endeavors with individuals who share a common vision.
         </p>
       </div>
     </div>
@@ -113,37 +107,27 @@ function ContactLink({
   );
 }
 
+
 function Contact() {
   return (
     <div className="flex flex-col gap-4">
       <p className="text-tertiary">Connect</p>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
         <ContactLink
-          href="https://twitter.com/cristicrtu"
-          title="cristicrtu"
+          href="https://twitter.com/knt_jspr"
+          title="knt_jspr"
           website="Twitter"
         />
         <ContactLink
-          href="https://github.com/cristicretu"
-          title="cristicretu"
+          href="https://github.com/kntjspr"
+          title="kntjspr"
           website="GitHub"
         />
         <ContactLink
-          href="https://www.figma.com/@cretu"
-          title="cretu"
-          website="Figma"
-        />
-        <ContactLink
-          href="https://layers.to/cretu"
-          title="cretu"
-          website="Layers.to"
-        />
-        <ContactLink
-          email="hi[at]cretu(dot)dev"
-          title="hi[at]cretu(dot)dev"
+          email="kntjspr[at]pm(dot)me"
+          title="kntjspr[at]pm(dot)me"
           website="Email"
         />
-        <ContactLink href="https://read.cv/cretu" title="cretu" website="CV" />
       </div>
     </div>
   );
