@@ -137,8 +137,8 @@ function Contact() {
           website="Stacks"
         />
         <ContactLink
-          href="https://gist.githubusercontent.com/kntjspr/11113453454fc113d1a610f50cfb7267/raw/1eed97f2691641936579c03b45749774531bb2b9/kntjspr-public-key.asc"
-          title="kntjspr.asc"
+          href="https://gist.githubusercontent.com/kntjspr/11113453454fc113d1a610f50cfb7267/raw/b4293097755f46525d6cfcb36af2ce42b055a67e/kntjspr-public-key.asc"
+          title="kntjspr-pub.asc"
           website="PGP Key"
         />
         
