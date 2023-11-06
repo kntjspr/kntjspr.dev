@@ -131,6 +131,18 @@ function Contact() {
           title="kntjspr[at]pm(dot)me"
           website="Email"
         />
+       <ContactLink
+          href="https://stacks.kntjspr.me/"
+          title="kntjspr"
+          website="Stacks"
+        />
+        <ContactLink
+          href="https://gist.githubusercontent.com/kntjspr/11113453454fc113d1a610f50cfb7267/raw/6a318fae59050f07a1873854b2904b3c5a4cf976/kntjspr-public-key.asc"
+          title="kntjspr.asc"
+          website="PGP Key"
+        />
+        
+        <ContactLink href="https://read.cv/kntjspr" title="kntjspr" website="CV" />
 
       </div>
     </div>
