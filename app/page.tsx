@@ -39,19 +39,19 @@ function AboutMe() {
     <div className="flex flex-col gap-4">
       <p className="text-tertiary">About me</p>
       <div className="text-secondary flex flex-col gap-4">
-        <p>
+        <p style={{ textAlign: 'justify' }}>
         My enthusiasm for learning knows no bounds, especially when it comes to diving into the exciting world of new technologies. 
         Beyond that, you&apos;ll often find me tinkering with various projects, engrossed in the pages of books, 
         mingling with friends, breaking a sweat at the gym, or strategizing over a chessboard.
         </p>
-        <p>
+        <p style={{ textAlign: 'justify' }}>
           Currently, I proudly serve as the Sponsorship Manager at{' '}
           <ExternalLink href="https://developers.google.com/community/gdsc">
-          Ops Department of Google Developer Student Clubs.
+          Operations Department of Google Developer Student Clubs.
           </ExternalLink>
           In this role, I connect with brilliant minds, forging relationships and seizing opportunities that fuel innovation and collaboration.
         </p>
-        <p>
+        <p style={{ textAlign: 'justify' }}>
         I&apos;m a freshman at the University of Science and Technology of Southern Philippines, where I&apos;m pursuing a Bachelor&apos;s degree in Computer Science. 
         My ultimate goal? To build a tech startup that leaves a mark on the world of technology.
         </p>
