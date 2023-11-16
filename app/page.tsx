@@ -46,8 +46,8 @@ function AboutMe() {
         </p>
         <p>
           Currently, I proudly serve as the Sponsorship Manager at{' '}
-          <ExternalLink href="https://www.facebook.com/dscustp">
-          Operations Department of Google Developer Student Clubs USTP
+          <ExternalLink href="https://developers.google.com/community/gdsc">
+          Ops Department of Google Developer Student Clubs
           </ExternalLink>
           . In this role, I connect with brilliant minds, forging relationships and seizing opportunities that fuel innovation and collaboration.
         </p>
