@@ -47,9 +47,9 @@ function AboutMe() {
         <p>
           Currently, I proudly serve as the Sponsorship Manager at{' '}
           <ExternalLink href="https://developers.google.com/community/gdsc">
-          Ops Department of Google Developer Student Clubs
+          Ops Department of Google Developer Student Clubs.
           </ExternalLink>
-          . In this role, I connect with brilliant minds, forging relationships and seizing opportunities that fuel innovation and collaboration.
+          In this role, I connect with brilliant minds, forging relationships and seizing opportunities that fuel innovation and collaboration.
         </p>
         <p>
         I&apos;m a freshman at the University of Science and Technology of Southern Philippines, where I&apos;m pursuing a Bachelor&apos;s degree in Computer Science. 
