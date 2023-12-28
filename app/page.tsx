@@ -127,8 +127,8 @@ function Contact() {
           website="GitHub"
         />
         <ContactLink
-          email="kntjspr[at]pm(dot)me"
-          title="kntjspr[at]pm(dot)me"
+          email="admin[at]kntjspr(dot)me"
+          title="admin[at]kntjspr(dot)me"
           website="Email"
         />
        <ContactLink
