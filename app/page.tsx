@@ -14,15 +14,6 @@ export default function Home() {
 function Header() {
   return (
 
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-588LZNCRB2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-588LZNCRB2');
-</script>
       
     <div className="flex flex-row items-center gap-4">
       <div className="relative h-12 w-12">
@@ -39,7 +30,7 @@ function Header() {
       </div>
       <div className="flex flex-col">
         <h1>Kent Jasper Cabunoc Sisi</h1>
-        <p className="text-quaternary">Software Developer in Philippines</p>
+        <p className="text-quaternary">Software Developer</p>
       </div>
     </div>
   );
