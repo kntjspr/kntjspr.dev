@@ -25,7 +25,7 @@ function Header() {
           src="/static/images/logo.png"
         />
         <div className="absolute -bottom-2 -right-2 rounded-full bg-white px-1 py-0.5 text-sm dark:bg-gray-900">
-          ✨
+          🦉
         </div>
       </div>
       <div className="flex flex-col">
@@ -119,9 +119,9 @@ function Contact() {
       <p className="text-tertiary">Connect</p>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
         <ContactLink
-          href="https://twitter.com/knt_jspr"
+          href="https://x.com/knt_jspr"
           title="knt_jspr"
-          website="Twitter"
+          website="Twitter/X"
         />
         <ContactLink
           href="https://github.com/kntjspr"
