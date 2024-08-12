@@ -47,18 +47,18 @@ function AboutMe() {
         mingling with friends, breaking a sweat at the gym, or strategizing over a chessboard.
         </p>
         <p>
-          Currently, I proudly serve as the Sponsorship Manager at{' '}
+          I’m currently the Chief Technology Officer at{' '}
           <ExternalLink href="https://developers.google.com/community/gdsc">
-          Operations Department of Google Developer Student Clubs.
+          Google Developer Student Clubs
           </ExternalLink>
-          In this role, I connect with brilliant minds, forging relationships and seizing opportunities that fuel innovation and collaboration.
+          , where I also previously served as the Sponsorship Manager. In this role, I connect with brilliant minds, building relationships, and driving innovation.
         </p>
         <p>
-        I&apos;m a freshman at the University of Science and Technology of Southern Philippines, where I&apos;m pursuing a Bachelor&apos;s degree in Computer Science. 
-        My ultimate goal? To build a tech startup that leaves a mark on the world of technology.
+        I&apos;m currently a sophomore at the University of Science and Technology of Southern Philippines, where I&apos;m pursuing a Bachelor&apos;s degree in Computer Science. 
+        My ultimate goal is to build a tech startup that makes a lasting impact in tech.
         </p>
         <p>
-        Currently interested in Reverse Engineering. Creating innovative experiences with Next.js. Fostering novel endeavors with individuals who share a common vision.
+        Currently into all things red teaming, pwning machines with offensive security, and collaborating on novel endeavors with like-minded visionaries
 
         </p>
       </div>
