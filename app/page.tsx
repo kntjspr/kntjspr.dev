@@ -58,7 +58,7 @@ function AboutMe() {
         My ultimate goal is to build a tech startup that makes a lasting impact in tech.
         </p>
         <p>
-        Currently into all things red teaming, pwning machines with offensive security, and collaborating on novel endeavors with like-minded visionaries
+        Currently into all things red teaming, pwning machines with offensive security, and fostering novel endeavors with individuals who share a common vision.
 
         </p>
       </div>
