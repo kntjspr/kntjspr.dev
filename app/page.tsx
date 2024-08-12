@@ -55,7 +55,7 @@ function AboutMe() {
         </p>
         <p>
         I&apos;m currently a sophomore at the University of Science and Technology of Southern Philippines, where I&apos;m pursuing a Bachelor&apos;s degree in Computer Science. 
-        My ultimate goal is to build a tech startup that makes a lasting impact in tech.
+        My ultimate goal? To build a tech startup that makes a lasting impact in tech.
         </p>
         <p>
         Currently into all things red teaming, pwning machines with offensive security, and fostering novel endeavors with individuals who share a common vision.
