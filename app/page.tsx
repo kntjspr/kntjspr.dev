@@ -47,7 +47,7 @@ function AboutMe() {
         mingling with friends, breaking a sweat at the gym, or strategizing over a chessboard.
         </p>
         <p>
-          I’m currently the Chief Technology Officer at{' '}
+          I currently serve as the Chief Technology Officer at{' '}
           <ExternalLink href="https://developers.google.com/community/gdsc">
           Google Developer Student Clubs
           </ExternalLink>
