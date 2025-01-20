@@ -49,7 +49,7 @@ function AboutMe() {
         <p>
           I currently serve as the Chief Technology Officer at{' '}
           <ExternalLink href="https://developers.google.com/community/gdsc">
-          Google Developer Student Clubs
+          Google Developer Groups on Campus - USTP
           </ExternalLink>
           , where I also previously served as the Sponsorship Manager. In this role, I connect with brilliant minds, building relationships, and driving innovation.
         </p>
